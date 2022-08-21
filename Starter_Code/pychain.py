@@ -195,7 +195,7 @@ if st.button("Add Block"):
     # and `amount` values
     new_block = Block(
         creator_id=42,
-        prev_hash=prev_block_hash
+        prev_hash=prev_block_hash,
         record=Record(sender, receiver, amount)
     )
 
